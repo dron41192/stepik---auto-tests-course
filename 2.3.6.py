@@ -9,7 +9,7 @@ link = "http://suninjuly.github.io/redirect_accept.html"
 browser = webdriver.Chrome()
 browser.get(link)
 
-butn = browser.find_element_by_xpath('//button[@type = "submit"]')
+butn = browser.find_element_by_xpath("//button[@type = 'submit']")
 butn.click()
 
 #new_window = browser.window_handles[1]
