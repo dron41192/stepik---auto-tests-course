@@ -14,7 +14,7 @@ browser.get("http://suninjuly.github.io/explicit_wait2.html")
 button = WebDriverWait(browser, 12).until(
 		EC.text_to_be_present_in_element((By.ID, "price"), "10000"))
 
-but = browser.find_element_by_xpath('//button[@id="book"]')
+but = browser.find_element_by_xpath("//button[@id='book']")
 but.click()
 
 x = browser.find_element_by_xpath('//span[@id = "input_value"]')
